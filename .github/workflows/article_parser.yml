@@ -31,6 +31,7 @@ jobs:
         working-directory: rust-packages/article_parser
 
   lint:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -49,6 +50,7 @@ jobs:
         working-directory: rust-packages/article_parser
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
