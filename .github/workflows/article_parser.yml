@@ -13,8 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: cargo build --verbose
+        run: cargo build # --verbose
         working-directory: rust-packages/article_parser
       - name: Run tests
-        run: cargo test --verbose
+        run: cargo test # --verbose
+        working-directory: rust-packages/article_parser
+      - name: Lint
+        run: cargo clippy
         working-directory: rust-packages/article_parser
