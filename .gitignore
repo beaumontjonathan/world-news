@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+target/
+
+bin/
+
+rust-packages/article_parser_python/lib/
+rust-packages/article_parser_python/bin/
+rust-packages/cosine_similarity/*

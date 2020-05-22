@@ -1,0 +1,53 @@
+---
+source: src/parsers/publishers/independent/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Terrorists to take lie detector tests as part of ‘major overhaul’ after London Bridge attack",
+            twitter_headline: Some(
+                "Terrorists to take lie detector tests as part of ‘major overhaul’ af…",
+            ),
+            description: "Government announces suite of new laws and proposals after warning that released prisoners are lying to probation officers",
+            thumbnail: Image {
+                alt: Some(
+                    "Critics said the changes were an \'admission of failure\' following the London Bridge attack and other atrocities",
+                ),
+                url: Some(
+                    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/12/02/11/London-Bridge.jpg?w968h681",
+                ),
+                caption: Some(
+                    "Critics said the changes were an \'admission of failure\' following the London Bridge attack and other atrocities",
+                ),
+            },
+            categories: [
+                "Crime",
+                "Home News",
+            ],
+            images: [
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/11/30/11/usman-khan-0.jpg",
+                    ),
+                    caption: Some(
+                        "Usman Khan, 28, was being monitored following his release from prison when he launched his attack on 29 November 2019 (West Midlands Police)",
+                    ),
+                },
+            ],
+            videos: [
+                Video {
+                    alt: None,
+                    url: None,
+                    caption: Some(
+                        "Usman Khan: What we know about the London Bridge attacker",
+                    ),
+                },
+            ],
+            body: "Terrorists are to be put through lie detector tests following release from prison as part of a “major overhaul” in response to the London Bridge terror attack.\nProposals announced today include increasing jail sentences for the “most serious” terror offenders, ending early release and doubling the number of specialist probation officers.\nIt comes after Usman Khan , an Islamist jailed over a bomb plot in 2012, murdered two people at a rehabilitation event in November.\nHe launched the attack using a fake suicide vest, which was also worn by prisoners accused of launching a terror attack inside a high-security prison this month.\nReviews have been launched into the police and probation officers who were meant to be monitoring Khan, but last week a watchdog warned that officials across the country were failing to check if dangerous offenders were lying.\nThe new proposals would see probation officers use polygraph tests when questioning released terrorists on their activities and licence conditions.\nDoubts have been raised about the accuracy of the tests, which are currently used on sex offenders in Britain and measure supposed signs of deception including changes to blood pressure and breathing.\nThe Independent understands that lie detector results alone would not be used to recall a terrorist to prison, but that the results could be used to carry out extra checks or enhance supervision.\nA University of Kent evaluation of polygraph tests on sex offenders in 2012 found that they “increased the likelihood of preventative actions being taken by offender managers to protect the public from harm”.\nPriti Patel, the home secretary, said the attack at Fishmongers’ Hall had confronted the government “with some hard truths about how we deal with terrorist offenders”.\n“We immediately announced a review into sentencing and licence conditions, to do whatever is necessary to stop these sickening attacks from taking place,” she added.\n“Today we are delivering on those promises, giving police and probation officers the resources they need to investigate and track offenders, introducing tougher sentences, and launching major reviews into how offenders are managed after they are released.”\nIt comes after The Independent revealed that up to 800 extremists are currently being held in British prisons , as terrorists are allowed to network and radicalise others.\nBut the government’s new Counter-Terrorism Bill is not thought to contain measures to assess the deradicalisation programmes used inside jail, or test the impact of increasing sentences.\nThe Ministry of Justice said terrorists who receive extended determinate sentences will be forced to serve the whole term behind bars and those convicted of “serious offences” such as planning attacks spend a mandatory minimum of 14 years in prison.\nThe Independent understands that the figure was chosen because it seemed “appropriate” following a review of sentences, and that the government has not decided what crimes the minimum term will cover.\nThe bill also contains plans to increase the number of specialist psychologists and specially-trained imams who conduct deradicalisation work and risk assessments inside prison.\nThe government said it would increase resources dedicated to training prison and probation staff who are tasked with spotting extremism.\nThe law would also increase the number of places in probation hostels, so authorities can keep “close tabs” on terrorists immediately after their release.\nAmid staff shortages in the National Probation Service, the government said it would double the number of specialist counterterror officers and give them a new set of national standards to intensify the monitoring of terrorists released on licence.\nAn independent review of the Multi Agency Public Protection Arrangements system, which is used for serious offenders like Khan to link police, probation, councils and the security services, is to be launched.\nDiane Abbott, the shadow home secretary, said that the overhaul was an “admission of failure”.\n“Major terrorist outrages have occurred all too frequently, including attacks by perpetrators who were known to the security services,” she added.\n“The fight against terrorism has been undermined by cuts to policing, including community policing, a lack of effective coordination between police and security services as well as the flawed Prevent programme. All of these need to change if we are going to improve the safety of our citizens.”\nThe Liberal Democrats called the proposed legislation “unnecessary and reactionary”, pointing out that life sentences can already be used for attack planning.\nHome affairs spokesperson Christine Jardine said: “If you could stop terrorism by passing illiberal new laws, the Conservatives would have ended it ages ago.\n“We need policies based on evidence, not cheap headlines.”\nThe government said it would increase funding for counterterror policing in Britain by £90m in 2020-21 and give £500,000 more to supporting the victims of terrorism.\nBut the head of UK counterterror police, Assistant Commissioner Neil Basu, called for more resources to be put into preventing extremism.\nHe said that although police supported increased sentences and welcomed more funding, the core challenge was the rocketing number of investigations.\n“The only way we are going to turn the tide is by throwing our support behind the only strategy which attempts to divert people away from violent extremism in the first place – Prevent,” Mr Basu said.\n“Whether Prevent is attempting to stop someone following a path towards terrorism, or hoping to rehabilitate and deradicalise those who have already been convicted, it is our best hope in reducing the threat in the long term.”\nThe government announced an independent review of Prevent as part of another suite of terror laws last January, but the chair resigned amid a legal challenge and a replacement has not been chosen.\nBrendan Cox, co-founder of the Survivors Against Terror group, called on the government to go further than reviewing support and back a charter protecting survivors’ rights.\n“When terror strikes the public expect survivors and bereaved families to be looked after – yet too many survivors are being forgotten about,” he added.",
+            date_updated: 2020-01-21T07:00:06Z,
+            date_published: 2020-01-21T07:00:06Z,
+        },
+    ),
+)

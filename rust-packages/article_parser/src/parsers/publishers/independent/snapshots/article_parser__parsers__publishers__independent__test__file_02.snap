@@ -1,0 +1,32 @@
+---
+source: src/parsers/publishers/independent/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "UK weather forecast: ‘Murky’ skies to cloud New Year’s Eve fireworks",
+            twitter_headline: Some(
+                "Dry and bright New Year’s Eve expected for north as south prepares f…",
+            ),
+            description: "Celebrations in the south of England may be affected by low cloud and fog, warns Met Office",
+            thumbnail: Image {
+                alt: None,
+                url: Some(
+                    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/12/30/15/istock-472099273.jpg",
+                ),
+                caption: None,
+            },
+            categories: [
+                "Home News",
+                "Weather",
+                "Video",
+            ],
+            images: [],
+            videos: [],
+            body: "New Year’s Eve celebrations across the UK will take place amid a “north-south split” in weather , according to forecasters.\nThe Met Office said Britain’s north would enjoy cold but dry and sunny conditions throughout Tuesday, with clear skies for fireworks displays as darkness falls.\nIn the south of England, however, low cloud and fog, as well as some spots of drizzle, are expected.\nTemperatures will fall across the country as the year comes to a close, with parts of Scotland and northern England plunging below freezing\nMet Office forecaster Alex Burkill told The Independent : “Some people watching fireworks in the south may find the displays slightly murky, as fog and low cloud may reduce visibility.\n“However, importantly, it will be dry in towards midnight with light winds, so there shouldn’t be any serious issues when the firework displays begin.”\nAbout 12,000 fireworks are set to light up London’s skyline when the clock strikes midnight on Tuesday, alongside other large pyrotechnic shows in Manchester, Cardiff, Newcastle, and Edinburgh.\nMore than 100,000 tickets have been bought for this year’s sold-out display in the capital. The Metropolitan Police advised those without a ticket to watch the display on television as entry will not be permitted.\u{200b}\nMr Burkill said light patches of rain would clear overnight on Tuesday and most of the UK will wake up to a dry first day of 2020 – although sunshine will be “quite limited”.\n“Temperatures will generally struggle on New Year’s Day . We’re looking at highs of 4-7C, which is about average but a little below that in some places,” he said.\nThere will be spells of wet weather on Thursday and Friday, but conditions are expected to settle down and stay dry on the weekend, the Met Office added.",
+            date_updated: 2019-12-30T16:35:33Z,
+            date_published: 2019-12-30T16:06:00Z,
+        },
+    ),
+)

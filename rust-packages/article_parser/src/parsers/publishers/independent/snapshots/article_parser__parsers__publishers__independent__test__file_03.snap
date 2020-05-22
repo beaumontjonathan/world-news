@@ -1,0 +1,30 @@
+---
+source: src/parsers/publishers/independent/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "\'Deeply inappropriate\': Boris Johnson facing mounting demands to suspend all post-Brexit trade talks during coronavirus",
+            twitter_headline: Some(
+                "Boris Johnson facing mounting demands to suspend all post-Brexit tra…",
+            ),
+            description: "\'We call on the government to pause all trade negotiations until the covid-19 crisis is under control and to inform both the public and potential trade partners of necessary action\'",
+            thumbnail: Image {
+                alt: None,
+                url: Some(
+                    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/03/26/11/boris-johnson.jpg?w968h681",
+                ),
+                caption: None,
+            },
+            categories: [
+                "UK Politics",
+            ],
+            images: [],
+            videos: [],
+            body: "Boris Johnson is facing escalating pressure to suspend all post- Brexit trade negotiations and concentrate government’s resources on fighting the coronavirus pandemic.\nIn a letter coordinated by the Trade Justice Movement and signed by several charities – including Friends of the Earth and the RSPCA – the prime minister is urged to pause talks until parliament returns and the crisis is under under control.\nAddressed to both Mr Johnson and Liz Truss , the international trade secretary, the groups claim it would be “deeply inappropriate” for trade talks between the UK and the US to commence at a time when both countries have imposed widespread lockdowns.\n“The UK government’s attention should be focused on dealing with the public health and economic crises which face our nation,” they added.\nCiting several “high risk issues”, including food standards, climate action, medicine prices and the NHS , the letter added: “This debate cannot happen amidst national lockdown and with parliament closed.\n“We call on the government to pause all trade negotiations until the covid-19 crisis is under control and to inform both the public and potential trade partners of necessary action.”\nOn Wednesday, the Freight Transport Association, representing UK logistics, also urged the government to urgently seek an extension to the Brexit transition period amid widespread disruption to business across the country.\n“This is not about the relative merits of Brexit, or any trading arrangements which our industry will need to adopt,” said the organisation’s policy director Elizabeth de Jong.\nShe added: “This is purely and simply so the businesses tasked with keeping the UK’s supply chain intact can concentrate on the serious issues which the covid-19 pandemic is placing on industry.\n“Logistics is facing unprecedented challenges, both in terms of keeping the UK economy supplies with all the goods it needs to function, as well as coping with the increased disruption to staffing levels caused by sickness and self-isolation and concerns about the viability of their busies.\n“Our first priority is always to deliver for our customers, and there is simply not enough capacity available to plan the major structural changes needed to implement a successful departure from the EU , as well as the myriad of other planned legislation changes on the horizon, as well as dealing with unprecedented pressures caused by covid-19.”\nAnd on the same day, the Welsh and Scottish governments called on the prime minister to halt the negotiations over the UK-EU’s future relationship, with the latter claiming the talks were an “unwelcome and unnecessary distraction” from the current crisis.\nRoseanna Cunningham, the environment secretary in Scotland, said the outbreak of the coronavirus was a “distressing period” for the entire country, adding: “All available government resource needs to be put towards tackling covid-19 and mitigating its effects on almost every area of Scottish society”.\nShe continued: “In this context, the Scottish government feels that a Brexit Scotland did not vote for, and does not want, is an unwelcome and unnecessary distraction. Continuing to plough on could seriously harm our ability to tackle a virus which threatens lives and livelihoods across these islands.”\nLast week, the EU Commission’s chief negotiator, Michel Barnier, also tested positive for coronavirus and his opposite number in the UK David Frost is also self-isolating after showing “mild” symptoms . But despite the escalating threat of covid-19, Downing Street has repeatedly insisted that there will be no extension to the 11-month transition period.",
+            date_updated: 2020-03-26T12:11:50Z,
+            date_published: 2020-03-26T11:51:00Z,
+        },
+    ),
+)

@@ -1,0 +1,47 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Martin Lewis issues urgent \'ASAB\' coronavirus travel insurance warning",
+            twitter_headline: None,
+            description: "Speaking on ITV\'s Good Morning Britain yesterday about how coronavirus will affect holidaymakers, Martin Lewis said travellers risk losing out if they are uninsured before they go away or while they are abroad",
+            thumbnail: Image {
+                alt: None,
+                url: None,
+                caption: None,
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: Some(
+                        "Martin Lewis offers crucial travel insurance advice over coronavirus fears",
+                    ),
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21601247.ece/ALTERNATES/s615b/0_Martin-Lewis-offers-crucial-travel-insurance-advice-over-coronavirus-fears.jpg",
+                    ),
+                    caption: Some(
+                        "Martin Lewis offers crucial travel insurance advice over coronavirus fears",
+                    ),
+                },
+                Image {
+                    alt: Some(
+                        "Workers wearing protective suits walk away from the cruise ship Diamond Princess",
+                    ),
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21601252.ece/ALTERNATES/s615b/0_Cruise-ship-Diamond-Princess-at-Daikoku-Pier-Cruise-Terminal-in-Yokohama.jpg",
+                    ),
+                    caption: Some(
+                        "Workers wearing protective suits walk away from the cruise ship Diamond Princess",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "Money mogul Martin Lewis has warned holidaymakers they should buy travel insurance with a matter of urgency as the threat of coronavirus heightens.\nSpeaking on ITV\'s Good Morning Britain yesterday, he said travellers risk losing out if they are uninsured and then the country they plan to visit becomes affected by the killer virus, Manchester Evening News reports.\nHe said: \"This is the big warning. I do it every year - I talk about booking travel insurance ASAB - as soon as you book.\n“Because if you don’t and something happens in the meantime before you get travel insurance, you’re not covered.\n“Anyone who has booked a holiday now for this year - if you have not got travel insurance, if you get the travel insurance and the Foreign & Commonwealth Office then says you can’t go to a country, you’re covered.\n“If the Foreign & Commonwealth Office rules out a country in future and you haven’t got travel insurance at that point, you’re not covered.\n“Get your travel insurance now if you’ve booked your holiday.\n“Because if for example you have skiing trip and in two weeks time they say ‘you can’t go’ but you haven’t got your travel insurance yet because you are going in four weeks time, you’re not covered.\n“But if you get it now, you are covered. ASAB has never been more important for travel insurance.\"\nExplaining the current situation surrounding travel insurance and coronavirus , he said: \"The current rules are, unless the Foreign and Commonwealth Office (FCO) has warned you against travel to a country, and it says don\'t go unless for essential travel, then you can\'t claim on your travel insurance.\n\"Travel insurance does not cover disinclination to travel.\n\"Not all travel insurance policies will cover you for pandemics but you should check and talk to your travel insurer,\" Martin warned.\nHe added: “If you booked a holiday, you should have travel insurance in place now, if you don’t go and do it now.\"\nAt the moment, the FCO is currently advising against all travel to Hubei province in China as a result of the coronavirus outbreak.\nThey are also warning against “all but essential” travel to the rest of mainland China.\nThe FCO currently does not advise against travel to Italy despite the outbreak, so trips can go ahead as normal.",
+            date_updated: 2020-03-02T10:29:38Z,
+            date_published: 2020-02-28T22:16:41Z,
+        },
+    ),
+)

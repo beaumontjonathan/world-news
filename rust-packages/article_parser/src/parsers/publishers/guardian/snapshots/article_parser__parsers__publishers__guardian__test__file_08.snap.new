@@ -1,0 +1,16 @@
+---
+source: src/parsers/publishers/guardian/mod.rs
+expression: article
+---
+Err(
+    HtmlStructureError(
+        HtmlStructureError {
+            cause: MissingElement,
+            selector: Selector {
+                selectors: [
+                    Selector(figure.media-primary, specificity = 0x401),
+                ],
+            },
+        },
+    ),
+)

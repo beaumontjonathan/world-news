@@ -1,0 +1,41 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "\'All bulls**t\' declares Donald Trump as he gloats over impeachment acquittal",
+            twitter_headline: None,
+            description: "The President delivered a rambling, sweary \"celebration\" of his acquittal by the Senate on articles of impeachment",
+            thumbnail: Image {
+                alt: None,
+                url: None,
+                caption: None,
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21446156.ece/ALTERNATES/s615b/0_TOPSHOT-US-POLITICS-TRUMP-IMPEACHMENT.jpg",
+                    ),
+                    caption: None,
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21446160.ece/ALTERNATES/s615b/0_US-POLITICS-TRUMP-IMPEACHMENT.jpg",
+                    ),
+                    caption: Some(
+                        "He described the Democratic party as \"vicious and mean\"",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "Donald Trump, the President of the United States, said in a nationally televised TV address that the probe into his alleged links with Russia was \"all bulls**t\".\nHe made the remark during a gloating, rambling \"celebration\" of his acquittal on articles of impeachment by the Senate.\nThe 52-48 Senate vote means he will not be removed from office.\nBut as with previously impeached Presidents who were acquitted by the Senate, Bill Clinton and Andrew Johnson, the House\'s decision to impeach remains a stain on his Presidential record.\nIn the televised address, he blamed his impeachment on \"evil, corrupt, dirty cops\" and \"leakers and liars\".\nHe appeared to confirm he had fired FBI director James Comey to protect himself.\n\"Had I not fired James Comey, who was a disaster by the way, it\'s possible I wouldn\'t even be standing here right now,\" he said.\n\"We caught him in the act.\"\nTurning his fire on his political opponents, he said: \"Democrats have horrible policies...open borders, sanctuary cities..who the hell can win?\"\nHe added: \"They\'re lousy politicians, but they do two things: they\'re vicious and mean.\"\nHe described Democrat Representative Adam Schiff, who had accused President Trump of \"treason\" as a \"vicious, horrible person\".\nHouse Speaker Nancy Pelosi was branded a \"horrible person\" adding \"I doubt she prays at all.\"\nAnd he repeated his attack on Mitt Romney, who voted against him in the Senate, accusing him of \"using his religion as a crutch.\"\nRomney, a Mormon, said in an emotional speech before the Senate vote on Wednesday that his faith compelled him vote to convict Trump.\nHolding up a copy of the Washington Post front page, bearing the headline \"Trump Acquitted\", he said: \"It\'s the only good headline I\'ve ever had in the Washington Post,\"",
+            date_updated: 2020-02-06T18:06:23Z,
+            date_published: 2020-02-06T18:04:08Z,
+        },
+    ),
+)

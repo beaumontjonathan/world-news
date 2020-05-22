@@ -1,0 +1,31 @@
+---
+source: src/parsers/publishers/independent/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Brexit \'will slow down coronavirus vaccine availability in UK\'",
+            twitter_headline: Some(
+                "Brexit \'will slow down coronavirus vaccine availability in UK\'",
+            ),
+            description: "Experts warn that European Medicines Agency membership would have had advantages",
+            thumbnail: Image {
+                alt: None,
+                url: Some(
+                    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/02/21/20/gettyimages-51752929-0.jpg?w968h681",
+                ),
+                caption: None,
+            },
+            categories: [
+                "UK Politics",
+                "Health",
+            ],
+            images: [],
+            videos: [],
+            body: "Britain faces having to wait longer and pay more for a future coronavirus vaccine because of Brexit , health experts have warned.\nWriting in the Observer newspaper health academics and lawyers said Britain\'s exit from the European Medicines Agency (EMA) would have a negative impact on making the treatment available.\nThe EMA has procedures allowing for the \"accelerated assessment\" of products developed by drug companies during a pandemic.\nAdditionally, the UK has already left the EU\'s emergency bulk-buying mechanism for vaccines and medicines, under which member states speed up their access to the latest products during crises by making large collective orders from pharmaceutical companies.\nThe authors of the article include Martin McKee of the London School of Hygiene and Tropical Medicine, as well as legal academics Anniek de Ruijter of Amsterdam Law School and Mark Flear of Queens University, Belfast.\n“For all these reasons... the UK is likely to have to join the queue for access with other countries outside the EU, and to pay more than it would otherwise as an EU member state,\" the academics say.\n“Looking further ahead, this problem will not be limited to emergencies and the UK can expect slower and more limited access to medicines, especially those for rare conditions or those used to treat children, where the market is small.”\nThe UK could stay aligned to the EMA\'s system from outside the bloc but Boris Johnson has indicated that he has no intention of doing so, arguing that it would make the UK a rule-taker.\nBefore Brexit the EMA was based in London, but it has since been relocated to Amsterdam, which won a competition to replace the UK capital as its host.\nA Department of Health and Social Care spokesperson said: “The UK and our friends and partners across Europe are part of a concerted international effort to combat the threat of COVID-19. We are confident that our current close working relationships will continue as we ready ourselves for all eventualities.\n\"We’re fully supporting the UK’s world-leading, disease research sector to play a key role in the global effort, with £40 million of new funding for rapid research into the virus.”",
+            date_updated: 2020-03-15T13:40:59Z,
+            date_published: 2020-03-15T13:39:00Z,
+        },
+    ),
+)

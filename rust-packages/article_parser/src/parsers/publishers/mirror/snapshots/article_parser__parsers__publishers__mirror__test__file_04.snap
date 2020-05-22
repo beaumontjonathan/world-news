@@ -1,0 +1,47 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Queen whisked away from Buckingham Palace as coronavirus quarantine plans explained",
+            twitter_headline: None,
+            description: "The Queen and Prince Philip will be put in quarantine away from Buckingham Palace if the crippling coronavirus (Covid-19) pandemic worsens",
+            thumbnail: Image {
+                alt: None,
+                url: Some(
+                    "https://i2-prod.mirror.co.uk/incoming/article21269262.ece/ALTERNATES/s615/2_BESTPIX-Queen-Attends-Sunday-Church-in-Sandringham.jpg",
+                ),
+                caption: Some(
+                    "The Queen is pictured yesterday leaving church recently",
+                ),
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21661878.ece/ALTERNATES/s615b/0_Commonwealth-Day-Service-2020.jpg",
+                    ),
+                    caption: Some(
+                        "Queen Elizabeth II attends the Commonwealth Day Service",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21654273.ece/ALTERNATES/s615b/1_Queen-Elizabeth-II-attends-church-at-Windsor-UK-08-Mar-2020.jpg",
+                    ),
+                    caption: Some(
+                        "Queen Elizabeth II leaves Windsor Castle to attend a function",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "The Queen has been chauffeured away from Buckingham Palace amid the coronavirus outbreak.\nIt is said the 93-year-old monarch was whisked to Windsor Castle on Thursday for her safety.\nBut a source at Buckingham Palace told Mirror Online the Queen went to Windsor on her usual weekend trip and will be back in London next week.\nBut it is understood plans are now in place to quarantine the Queen and Prince Philip, 98, at Sandringham if the outbreak worsens.\nHowever, there had been reports the Queen had been \"whisked away\" from the Palace over cronavirus fears.\nA royal source said: \"She is in good health but it was thought best to move her. A lot of her staff are a bit panicky over coronavirus.\n“The Palace hosts a constant stream of visitors including politicians and dignitaries from around the world.\"\nThe Sun reports advisers have suggested the move for the Queen as the death toll to Covid-19 rises in the UK.\nMore than 20 have succumbed to the virus in the country, with confirmed cases rocketing by 342 to 1,140.\nThe royal source added: \"The Queen has met a lot of people there until recently. But she is weeks away from her 94th birthday and advisers believe it is best to get her out of harm’s way.\n“Buckingham Palace is in the middle of London and also has a bigger staff than other estates so is deemed a much more dangerous location.\n“There have been no specific scares or positive tests there yet but no one wants to take any chances.”\nThe Palace has around 500 staff, Windsor 100 and Sandringham a handful.\nPalace garden parties for 30,000 guests in May and June may be cancelled because of the pandemic.",
+            date_updated: 2020-03-14T23:59:32Z,
+            date_published: 2020-03-14T22:39:08Z,
+        },
+    ),
+)

@@ -1,0 +1,16 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Err(
+    HtmlStructureError(
+        HtmlStructureError {
+            cause: MissingElement,
+            selector: Selector {
+                selectors: [
+                    Selector(body > main > article.article-main, specificity = 0x403),
+                ],
+            },
+        },
+    ),
+)

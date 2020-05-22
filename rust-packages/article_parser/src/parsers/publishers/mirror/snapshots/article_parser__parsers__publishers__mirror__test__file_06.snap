@@ -1,0 +1,47 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Two men drown off Canary Islands beach as third \'tourist\' airlifted to hospital",
+            twitter_headline: None,
+            description: "The tragedy happened on the island of Fuerteventura and although the nationality of the victims is not known, but they are believed to have been tourists",
+            thumbnail: Image {
+                alt: None,
+                url: Some(
+                    "https://i2-prod.mirror.co.uk/incoming/article21471017.ece/ALTERNATES/s615/0_Fuerteventura.jpg",
+                ),
+                caption: Some(
+                    "The two men, believed to be tourists, died in Fuerteventura",
+                ),
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21471018.ece/ALTERNATES/s615b/0_Fuerteventura.jpg",
+                    ),
+                    caption: Some(
+                        "Police are investigating the tragedy",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21471016.ece/ALTERNATES/s615b/0_Fuerteventura.jpg",
+                    ),
+                    caption: Some(
+                        "A rescue helicopter was sent out to locate the victims",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "Two men have drowned after being swamped by a huge wave on the Canary island of Fuerteventura this afternoon.\nA 36-year-old woman was also airlifted to hospital as a result of the tragedy.\nPolice have yet to give any details about the two victims.\nTheir age and nationality are not known but they are believed to have been tourists enjoying a local beach.\nThe woman has been airlifted to hospital in an emergency helicopter and is suffering from various injuries.\nThe double tragedy happened off the popular beach of Aguas Verdes which is in the municipality of Betancuria in the western part of Fuerteventura.\nThe emergency services received a call just after 1.30pm reporting that two men were in trouble in the sea.\nIt is understood they either got into difficulties whilst swimming or were swept into the water by the huge waves.\nA full-scale rescue mission was launched to find the two men.\nTheir bodies were spotted in the sea and they were resced by an emergency helicopter.\nBoth were in cardiorespiratory arrest and despite prolonged efforts to save them, they could not be revived and were certified dead at the scene.\nA spokesman for the 112 emergency control centre said the woman had managed to get out of the sea by herself.\nShe was stabilised and rushed to hospital.\nPolice have launched an investigation to find out what happened.",
+            date_updated: 2020-02-10T19:49:53Z,
+            date_published: 2020-02-10T19:39:21Z,
+        },
+    ),
+)

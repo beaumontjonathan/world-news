@@ -1,0 +1,34 @@
+---
+source: src/parsers/publishers/independent/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "Theresa May unveils statue of \'virulently antisemitic\' first woman MP",
+            twitter_headline: Some(
+                "Tories unveil statue of \'virulently antisemitic\' first woman MP",
+            ),
+            description: "Bronze monument commemorates 100th anniversary of her election",
+            thumbnail: Image {
+                alt: Some(
+                    "Boris Johnson and Plymouth parliamentary candidate, Rebecca Smith look at a statue of Nancy Astor, the first female MP to sit in parliament",
+                ),
+                url: Some(
+                    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/11/29/13/nancy-astor-statue-boris-johnson.jpg?w968h681",
+                ),
+                caption: Some(
+                    "Boris Johnson and Plymouth parliamentary candidate, Rebecca Smith look at a statue of Nancy Astor, the first female MP to sit in parliament",
+                ),
+            },
+            categories: [
+                "UK Politics",
+            ],
+            images: [],
+            videos: [],
+            body: "Theresa May has unveiled a statue of Nancy Astor , the first female MP to sit in parliament, as campaigners asked that the pioneering politician\'s “virulent antisemitism” was also remembered.\nThe bronze monument, installed in Plymouth to commemorate the 100th anniversary of her election, was also visited by Boris Johnson and Rebecca Smith, the Conservative candidate for Plymouth Sutton.\nCampaign Against Anti-Semitism celebrated Astor as a “trailblazer for women in politics” but said her views towards Jewish communities needed to be remembered.\nA spokesperson said Astor “held appalling views on Jews and Nazi Germany” and called it “vital that context should be provided for passersby about not only her achievements but also her virulent antisemitism”.\nThey said: “Hopefully that will serve as a lesson that in our time we must not sacrifice our solidarity with a minority community for other priorities, however worthwhile.”\nAstor belonged to a group of members of the elite called the Cliveden set, who favoured appeasement policies and were accused of being sympathetic to fascism.\nShe reportedly once told MP Alan Graham \"only a Jew like you would dare to be rude to me\", according to Harold Nicolson.\nThe politician reportedly expressed her dislike for the Jewish community to the US ambassador Joseph P Kennedy and wrote to him that it would have to take much more than Hitler giving \"a rough time\" to \"the killers of Christ\" before supporting the launch of \"Armageddon to save them\", according to the book The Kennedys at War: 1937-1945 .\nAstor did hold views “which blamed antisemitism on the Jews”, said David Feldman, director of the Pears Institute for the study of antisemitism at Birkbeck University of London.\nHe shared an anecdote from the diary of James McDonald, a League of Nations employee, who claimed Astor said at an event held by a wealthy Jewish family: “Did I not after all believe there must be something in the Jews themselves that had bought them persecution throughout all the ages?”\nMr Feldman said, however, the idea that “Jewish behaviour contributed to antisemitism was a conventional idea in the UK at the time”.\nAstor won the Plymouth Sutton seat for the Conservative party in a by-election in 1919, after her husband ascended to the House of Lords following the death of his father, becoming the first woman to sit in parliament.\nConstance Markievticz was elected MP a year earlier, but did not take up her seat in parliament due to being a member of Irish republican party Sinn Fein.\nMs May said: “The first to take her seat on those green benches among more than 700 men, and the first to rise to her feet and speak, not just for the people of Plymouth, but for more than half the population.\n“She ignored the jeering, the patronising, and the bawdy jokes, and began to make the House of Commons an easier place for the many, but still too few, women who followed her.”\nDavid Feldman, director of the Pears Institute for the study of antisemitism at Birkbeck University of London, said Astor did hold views “which blamed antisemitism on the Jews”, although it was “not an unusual view at the time”.\nHe shared an anecdote from the diary of James McDonald, the League of Nations high commissioner for refugees from Germany, who wrote Astor said at a charity lunch held by a wealthy Jewish family: “Did I not after all believe there must be something in the Jews themselves that had bought them persecution throughout all the ages?”\nMr Feldman said, however, the idea that “Jewish behaviour contributed to antisemitism was a conventional idea in the UK at the time”.\nJacqui Turner, Astor scholar and keeper of the Astor Archive, responded to accusations the MP was antisemitic, anticatholic and a Nazi sympathiser on the FAQs of the statue campaign site.\n“The most controversial thing about Nancy Astor was the fact she was a woman,” Dr Turner said.\n“Her beliefs were not much different than many people of her time, especially the upper classes who saw fascism as the only real alternative to the threat of communism.”\nThe bronze tribute is the result of a £125,000 crowdfunding project spearheaded by the Nancy Astor Statue Appeal. The statue stands near Astor’s former family home.\nThe Conservative party and the Nancy Astor Statue Appeal have been approached for comment.\nPress Association contributed to this report",
+            date_updated: 2019-11-29T17:53:27Z,
+            date_published: 2019-11-29T17:53:27Z,
+        },
+    ),
+)

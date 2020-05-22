@@ -1,0 +1,75 @@
+---
+source: src/parsers/publishers/guardian/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "The isolated tribes at risk of illness from Amazon missionaries",
+            twitter_headline: None,
+            description: "As evangelical Christians use their influence with Brazil’s government to cast their net ever wider, indigenous people vulnerable to common diseases face a growing threat",
+            thumbnail: Image {
+                alt: Some(
+                    "A young Marubo boy, Metsisi Marubo, carries water from the Rio Itui toward the village of Rio Novo",
+                ),
+                url: Some(
+                    "https://i.guim.co.uk/img/media/782fdf1a3863246878f621c6d19273cf5d6731ee/54_820_5111_3067/master/5111.jpg?width=300&quality=85&auto=format&fit=max&s=13d195b820dcbe6a081f4cd260969249",
+                ),
+                caption: Some(
+                    "A young Marubo boy, Metsisi Marubo, carries water from the Rio Itui toward the village of Rio Novo. Medical experts say indigeneos people are at high risk from coronavirus. Photograph: Gary Calton/The Observer",
+                ),
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: Some(
+                        "Ricardo Lopes Dias",
+                    ),
+                    url: Some(
+                        "https://i.guim.co.uk/img/media/ccd4d31204bf1b98127ff726b9dfb883a333490f/0_0_774_540/master/774.jpg?width=300&quality=85&auto=format&fit=max&s=4e7266005ac80829aee5465c70775dd7",
+                    ),
+                    caption: Some(
+                        "Former evangelical missionary Ricardo Lopes Dias is in charge of Brazil’s isolated indigenous tribes. Photograph: Mário Vilela/Funai",
+                    ),
+                },
+                Image {
+                    alt: Some(
+                        "A man holding a Bible prays during a Christian event called March for Jesus in Brasilia, Brazil",
+                    ),
+                    url: Some(
+                        "https://i.guim.co.uk/img/media/a06a7781dad6922241d4f70917d7f402a059c54c/0_0_5760_3840/master/5760.jpg?width=300&quality=85&auto=format&fit=max&s=bc4358b848c73e48195592a583bf88c2",
+                    ),
+                    caption: Some(
+                        "A man holding a Bible prays during a Christian event called March for Jesus in Brasilia that was attended by Brazil’s president. Photograph: Eraldo Peres/AP",
+                    ),
+                },
+                Image {
+                    alt: Some(
+                        "Aerial view of a village in the Yanomami indigenous territory in the north of Brazil, close to the Venezuelan border",
+                    ),
+                    url: Some(
+                        "https://i.guim.co.uk/img/media/a7ced993ddfa53d39e4d570ca02fcf1fba46b261/21_0_2695_1617/master/2695.jpg?width=300&quality=85&auto=format&fit=max&s=c207ff5fbafda067940dadab85164882",
+                    ),
+                    caption: Some(
+                        "A village in the Yanomami indigenous territory in the north of Brazil, close to the Venezuelan border. At least three groups of Yanomami are uncontacted. Photograph: Guilherme Gnipper Trevisan/Hutukara",
+                    ),
+                },
+                Image {
+                    alt: Some(
+                        "Young Korubo children (from left) Tamo Lala, Tupa, Tëpi and Visa are seen on the Amazonian Indigenous reserve of Vale do Javeri",
+                    ),
+                    url: Some(
+                        "https://i.guim.co.uk/img/media/f247f615f80db6943bff1b7ab3febd9c6feebb58/0_0_6720_4480/master/6720.jpg?width=300&quality=85&auto=format&fit=max&s=dcecf96dbd29a6d534279c16a87dc2c7",
+                    ),
+                    caption: Some(
+                        "Young Korubo children (from left) Tamo Lala, Tupa, Tëpi and Visa are seen on the Amazonian Indigenous reserve of Vale do Javeri. Photograph: Gary Calton/The Observer",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "A radical group of evangelical Christian missionaries set on converting every last tribe on Earth has raised fears that deadly diseases – and even the coronavirus – will spread in the Brazilian Amazon. The group has based its newly bought helicopter right beside a reserve with the world’s highest concentration of isolated indigenous groups, who have little resistance to common illnesses.\nThere are more than 100 isolated indigenous groups in Brazil, all highly vulnerable to common diseases such as measles and flu, and 16 of them live in the same reserve in the Javari Valley, a vast, remote area the size of Austria. Covid-19 could wipe out any of them.\nVideos posted in 2018 by the US-based missionary organisation Ethnos360 – formerly called New Tribes Mission – aimed to raise money to buy the helicopter, saying it would be used to reach “new people groups”. The Brazilian government official now in charge of isolated and recently contacted tribes at the government’s indigenous agency, Funai, is a former New Tribes missionary .\nThe official, anthropologist Ricardo Lopes Dias, worked for 10 years for New Tribes beside the Javari Valley . New Tribes said its helicopter was now based in Cruzeiro do Sul, 55km south of the reserve.\n“History shows us that any contagious disease can be catastrophic for these people,” said Douglas Rodrigues, a professor of medicine at the Federal University of São Paulo with extensive experience of isolated indigenous groups.\nDoctors also highlighted the danger of Covid-19 for isolated tribes. According to the site Amazônia Real , one adult Marubo indigenous man and his two daughters are suspected of having the virus. All three are reported to be in isolation in Atalaia do Norte, a town on the Amazon’s northern edge. Samples for testing need to be sent to Manaus, over 1,000km away.\n“This virus is a potential killer that could easily wipe out the whole community,” said Adam Mol, a Polish doctor who worked with remote tribes in the Javari Valley.\nMol cited the case of American missionary John Chau , killed by a tribe of hunter-gatherers last year after he landed on North Sentinel Island in the Indian Ocean to illustrate the risks New Tribes present to the region.\n“He literally accepted killing some of them with the excuse of bringing them God’s word. That’s literally how these people think,” Mol said.\nEvangelical Christians have extended their influence in Brazil under the country’s far-right president, Jair Bolsonaro, who increasingly relies on their support and has a history of racist remarks about indigenous people, calling those living on protected reserves “ prehistoric ”.\n“The route is being prepared,” Rodrigues said. “They are ready to invade these territories and do these contacts. New Tribes’ mission is clear.”\nThe indigenous association of the Javari Valley, Univaja, demanded the authorities take action to “avoid the worst”.\nNew Tribes has had a controversial history for decades in Brazil . “They are fundamentalist believers,” said Daniel Everett, an American linguist and former missionary in the Brazilian Amazon who knows the group well. “Their views are extremely 19th century.”\nIn 1991, New Tribes missionaries were expelled by Funai from a remote region where they had contacted an isolated indigenous group of Zo’é indigenous people. In 2014, Warren Scott Kennell was given a 58-year sentence for producing child pornography while working as a missionary for New Tribes in Brazil and admitted sexually abusing children. In 2018, Manoel de Oliveira was handed a three-year prison sentence and fined for keeping Zo’é indigenous people in slave-like conditions on his cashew nut plantation. Prosecutors said he had worked with New Tribes in the region. He is currently appealing.\nBrazil’s Época magazine reported that Ethnos360 had appealed for donations to buy a helicopter to evangelise isolated indigenous groups in western Brazil, near the Peruvian border. This would contravene the policy Funai has had since 1987 of no contact with isolated groups, introduced after tribes were decimated by disease when contact was forced on them.\nNew Tribes pilot Jeremiah Diedrich said in a video that the region where the Javari Valley is located had the highest concentration of uncontacted people groups anywhere in the world. “It is the darkest, densest, hardest to reach place in all South America,” Diedrich said. “This is why we need a helicopter.”\n“The mission leadership is going to be able to assign new teams to reach new people groups in this area,” fellow missionary Julie Diedrich said in the film. In a video shot in front of the Robinson R66 helicopter that was shared on Facebook, New Tribes’ Brasil director, pastor Edward Gomes da Luz, thanked God for its arrival.\nIn February, federal prosecutors sought to suspend Dias’s Funai appointment. In court documents , they quoted a recording of Edward Mantoanelli Luz – a conservative anthropologist, Bolsonaro supporter and son of the New Tribes director, who is not part of the group. In it, he claimed some of the credit for the Dias appointment and vowed the “no contact” policy would end. A judge rejected the prosecutors’ move.\nEdward Mantoanelli Luz told the Guardian that his father was a “great professional” and that Brazil’s policy of no contact had been “manipulated” by other countries. “We have now a new president, a president who looks at Brazil before looking abroad. We need to renew and update this policy,” he said.\nFunai and health professionals could initiate the process of contacting isolated groups, he said. “The evangelical message can come at another moment,” he added, voicing support for Bolsonaro’s policy to allow commercial farming and mining on indigenous reserves, activities currently prohibited.\nLast week, Funai changed its rules to allow contact with isolated groups if Covid-19 made it essential to their survival, and suspended entry to indigenous reserves. Mantoanelli Luz welcomed the move. On Monday, following an outcry, the government effectively changed the rules back again.\nFunai said it has no requests from New Tribes to enter the Javari Valley. Dias declined an interview and did not answer a question on whether the “no contact” policy would be changed.\n“According to the current indigenous policy, the self-determination of isolated peoples is a guaranteed and respected right,” he said in an email.\nThe prosecutors challenging his appointment described an international movement of missionary groups to convert indigenous tribes, including a coalition called Finishing the Task . In a video on the Ethnos360 site called A Vision for Finishing, its CEO in the US, Larry Brown, said : “We can see every tribe reached. It is doable.”\nThe Finishing the Task website lists the Korubo tribe in the Javari Valley as one of its “prioritised unengaged unreached people groups”. Guardian reporters visited their villages in 2018. Three small groups of Korubo were contacted by Funai in recent years in exceptional circumstances, following health and security scares. One remains in isolation.\nDoctor Lucas Albertoni worked on all three contacts. “A common cold could evolve into pneumonia and sepsis in a matter of days without medical assistance,” he said, noting that even contacted Korubo remain vulnerable because immunity takes time to build up. “They are a high-risk group for coronavirus,” he said.\nNew Tribes Mission already has one church in the Javari Valley. Its helicopter will “support mission work in the region”, the group said in a statement. “New Tribes Mission Brazil does not work with isolated people, without contact,” it said.\nBut in 1991, New Tribes missionaries led by Edward Gomes da Luz were expelled by Funai from the eastern Amazon region inhabited by the Zo’é tribe. Funai blamed them for dozens of deaths by disease. Douglas Rodrigues arrived in the region with a Funai team six months after the missionaries had set up their base.\nThe Zo’é tribe were suffering from malaria, which they said they had never seen before the missionaries arrived, and flu. Tests showed none had been vaccinated against anything, Rodrigues said. “It is inadmissible that you enter into contact with a group like this … and don’t vaccinate them,” he said.\n“Without experience in doing contact, the missionaries caused great mortality in these people,” Funai employee Fiorello Parise – who also went there – told anthropologist Felipe Milanez, in his book Memories of Indigenous Specialists (Memórias Sertanistas).\nLuz told BBC Brasil he was the first non-indigenous person to contact the tribe, in 1982. He declined the Guardian’s request for an interview and his group said investigations had proved “the absence of illicit acts” and called the accusations “unfounded and untrue”.\nRodrigues said Covid-19 is a reminder of how dangerous a new virus can be to anyone lacking immunity. In this sense, he said: “We are all wild indigenous people now.”",
+            date_updated: 2020-03-23T16:07:36Z,
+            date_published: 2020-03-23T07:00:29Z,
+        },
+    ),
+)

@@ -1,0 +1,84 @@
+---
+source: src/parsers/publishers/mirror/mod.rs
+expression: article
+---
+Ok(
+    NewsArticle(
+        NewsArticleContent {
+            headline: "BBC election debate: 6 key moments from the final head-to-head clash",
+            twitter_headline: None,
+            description: "Boris Johnson and Jeremy Corbyn clashed in their final head-to head before Thursday\'s poll. The two leaders faced each other in a Question Time style debate chaired by Nick Robinson",
+            thumbnail: Image {
+                alt: None,
+                url: None,
+                caption: None,
+            },
+            categories: [],
+            images: [
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21043028.ece/ALTERNATES/s615b/0_General-Election-2019.jpg",
+                    ),
+                    caption: Some(
+                        "A member of the audience shouted \"go on then\"",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21042992.ece/ALTERNATES/s615b/0_Britains-PM-Johnson-and-Labour-leader-Corbyn-debate-on-BBC-in-London.jpg",
+                    ),
+                    caption: None,
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21042141.ece/ALTERNATES/s615b/0_BBC.jpg",
+                    ),
+                    caption: Some(
+                        "Jeremy Corbyn says the NHS is not safe in the hands of the Tories",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21042980.ece/ALTERNATES/s615b/0_Britains-PM-Johnson-and-Labour-leader-Corbyn-debate-on-BBC-in-London.jpg",
+                    ),
+                    caption: Some(
+                        "Jeremy Corbyn shed some light on Labour\'s much touted four-day week policy",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21042992.ece/ALTERNATES/s615b/0_Britains-PM-Johnson-and-Labour-leader-Corbyn-debate-on-BBC-in-London.jpg",
+                    ),
+                    caption: None,
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21012548.ece/ALTERNATES/s615b/16711581_10158181129255425_230962053886286278_n.jpg",
+                    ),
+                    caption: Some(
+                        "Jack Merritt was stabbed to death during the London Bridge terror attack",
+                    ),
+                },
+                Image {
+                    alt: None,
+                    url: Some(
+                        "https://i2-prod.mirror.co.uk/incoming/article21042159.ece/ALTERNATES/s615b/1_THP_CHP_061219Slug_2960JPG.jpg",
+                    ),
+                    caption: Some(
+                        "Boris Johnson went off on a strange tangent",
+                    ),
+                },
+            ],
+            videos: [],
+            body: "Boris Johnson and Jeremy Corbyn clashed over Brexit , the NHS and terrorism in the final TV debate of the General Election campaign.\nThe Prime Minister accused Mr Corbyn of a \"failure of leadership\" in his handling of anti-Semitism in the Labour Party.\nThe Labour leader shot back that he never used racist language and that he hoped Mr Johnson regretted his past comments.\nViewers of the BBC TV debate believe the Prime Minister narrowly won although it was within the polling margin of error so is effectively too close to call.\nAccording to a YouGov snap poll 52% believe Mr Johnson won and 48% think Mr Corbyn did.\nThe pollster said this falls within the margin of error so it can be considered another draw. Those who answered \"don\'t know\" have been removed from results.\nChris Curtis, YouGov\'s political research manager, said: \"Our snap poll shows that the public remains divided on who won the debate, just as with last month\'s head-to-head, with most Labour voters thinking Jeremy Corbyn won, most Conservative voters thinking Boris Johnson won, and very few people changing their minds.\n\"But given the Conservatives went into this debate in the lead, they will hope the lack of a knockout blow means they can maintain this until voting day.\"\nBoris Johnson had a toe-curling response when asked what the punishment should be for politicians who lie.\nThe Prime Minister has been accused of misleading the country on a number of issues including his promises to create 50,000 nurse places - 20,000 of whom are already working in the service, his promise for 40 hospitals which transpired as only six and the infamous message on the side of the Vote Leave bus.\nAt the BBC\'s leaders\' debate in Maidstone, Kent, a member of the audience asked the two leaders what punishment they think is \"appropriate for elected politicians who lie during political campaigns\"?\nThe audience laughed at Mr Johnson as he smirked and said politicians who lie during election campaigns should \"be made to go on their knees down on their knees through the chamber of the House of Commons scourging themselves with copies of their offending documents which claim to prove one thing and actually prove something quite different.\"\nOne audience member shouted out: \"Go on then.\"\nJeremy Corbyn hit back at Boris Johnson\'s claims that the NHS is not on the table in future trade deals with the US.\nDuring the leadership debate the Labour leader was challenged on his assertion that if there was a deal with America then Brits would face five-figure bills for cancer treatment.\nMr Corbyn asked the Prime Minister why negotiations had taken two years if Mr Johnson was telling the US that the NHS was not for sale.\nHe said: \"The Prime Minister says he\'s not going to do that kind of trade deal. \"If that\'s the case, why did the talks go on for two years? It doesn\'t take two years to say no to privatisation of the NHS.\"\nThe Labour leader clashed with the Prime Minister during the BBC\'s head-to-head debate less than a week before the election.\nHost Nick Robinson asked: You don\'t dispute what he\'s quoted which is that American trade negotiators say they want more access to the NHS.\nHe replied: \"I\'ve made it absolutely clear to everybody that under no circumstances will that happen.\"\nMr Robinson asked Mr Corbyn: \"You sent an email on behalf of the Labour Party saying \'imagine opening a five figure bill for your cancer treatment\', do you accept that is totally misleading - there\'s no possibility of anybody having NHS cancer treatments and having to pay a five figure bill\".\nMr Corbyn replied: \"If you end up with a privatised service, that\'s what you get. If you end up with a US trade deal, that\'s what you get.\nMr Johnson said: \"This is pure Bermuda Triangle stuff. We\'ve heard it time and time again from the Labour Party during this election campaign.\n\"We\'ll be hearing about \'little green men\' next.\"\nMr Johnson added: \"Under no circumstances will we sell it off to anybody in any kind of trade deal.\"\nThe PM added that he has \"made it absolutely clear to everybody\" that under no circumstances will it happen.\nBoris Johnson was once again skewered on his bogus pledge to have 40 new hospitals (when in fact most of it is for seed funding).\nBut when a nurse asked about dealing with the shortage of staff, it was actually Jeremy Corbyn who shed some new light on policy.\nUnder pressure from BBC host Nick Robinson, Mr Corbyn confirmed Labour\'s ambition to reach a 32-hour week within a decade was not a hard plan to apply to NHS staff.\nMr Corbyn said he wants to see the working week come down, but added: \"There is no plan to bring in a four day week in the NHS.\"\nThis appears to contradict Shadow Chancellor John McDonnell who said last month: \"It’s a 32-hour week implemented over a ten-year period – it will apply to everyone.\"\nJeremy Corbyn found himself on stronger ground when talking about capitalism and its failings.\nAfter Boris Johnson accused him and his allies of wanting to overthrow capitalism he replied: “My plan is one where you don’t leave people behind.\n“You don’t ignore the fact that 4million of our children are living in poverty, you don’t ignore the fact there are thousands of people sleeping on the streets of this country - the fifth richest country in the world.\n\"The inequality has got worse. 150 billionaires in Britain, more people poor than ever.”\nThe audience applauded.\nHe added: “We’ve gone too far down the road of free market economics… we’ve created too much inequality.”\nWhen the leaders were asked about balancing the needs of security against human rights against in the wake of the London Bridge terror attack, Mr Corbyn said: \"What happened on the streets of London was utterly appalling and I very moved by what Jack Merritt\'s father said about what his son was trying to do.\nMr Johnson had threatened to lock up terrorists and throw away the key - even though victim Jack Merritt’s dad had pleaded for him not to politicise the atrocity.\nMr Corbyn slammed the Tory leader: “Yes of course you must imprison them. Yes of course you must try and rehabilitate them if you can.\n“But there has to be a monitoring process to achieve that. We need security on our streets. Security doesn’t come on the cheap.\n“And if you cut the number of police officers, cut the number of PCSOs, privatise the probation service, underfund all the other aspects of the criminal justice system, then we all pay a price with our own security.”\nMr Johnson claimed he was putting a huge amount of money into the criminal justice system - even though the Tories have cut expenditure on justice by 40%, and have announced no plans to increase expenditure except on prisons.\nBoris Johnson seemed to blame Islamophobia in the Conservative Party on the failure to get Brexit done.\nThe leaders were asked about the division and acrimony within political discourse by a member of the audience in Maidstone in Kent.\nThe Prime Minister replied: \"What we need to do is come together as a country.\n\"We\'ve been going at this too long - and this is my key point tonight - the scratchiness of politics, the bitterness, the acrimony is a function of our inability to get Brexit done.\"\nMr Johnson agreed to an independent investigation into Islamophobia in the Conservative Party while standing to be Tory leader before widening it out to include all forms of racism.",
+            date_updated: 2019-12-07T09:53:43Z,
+            date_published: 2019-12-06T23:21:21Z,
+        },
+    ),
+)
