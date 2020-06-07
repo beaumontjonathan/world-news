@@ -107,6 +107,7 @@ target/
 
 bin/
 
-rust-packages/article_parser_python/lib/
-rust-packages/article_parser_python/bin/
-rust-packages/cosine_similarity/*
+packages/article_parser_python/lib/
+packages/article_parser_python/bin/
+packages/cosine_similarity/*
+perf_tests

@@ -1,0 +1,11 @@
+[package]
+name = "world_news"
+version = "0.0.1"
+authors = ["beaumontjonathan <beaumont_jonny@hotmail.co.uk>"]
+edition = "2018"
+license-file = "../../LICENSE"
+repository = "https://github.com/beaumontjonathan/world-news/"
+keywords = ["news"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
